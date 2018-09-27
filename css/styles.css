@@ -1,0 +1,388 @@
+html,body {
+  height: 100%;
+}
+
+body {
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background-color: #5B9941; /** green **/
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/** HEADER **/ 
+
+.header { 
+  padding: 40px;
+  text-align: center;
+  background: #e5b72d; /** gold **/
+  color: white;
+  font-size: 30px;
+}
+
+.header a { /** Club name **/
+	color: green;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.header a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.topnav { /* Navigation bar */
+  overflow: hidden;
+  text-align: center;
+  background-color: #ecefcb;
+  padding: 4px;
+}
+
+.topnav a { /* Navigation bar links */
+  float: none;
+  display: inline-block;
+  color: gray;
+  padding: 1px 35px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+
+  background-color: white;
+  color: green;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -65px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 65px; /* .push must be the same height as .footer */
+}
+.footer { /** footer **/
+	padding: 15px;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ecefcb;
+    color: gray;
+    text-align: center;
+}
+
+
+/** Footer social media icons **/
+.fa { 
+	display: inline-block;
+    padding: 9px;
+    font-size: 40px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    -moz-bord er-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+.fa:hover {
+    opacity: .7;
+}
+
+/* Facebook icon */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Google icon */
+.fa-google {
+    background: #55ACEE;
+    color: white;
+}
+
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+
+
+/**	ABOUT PAGE*/
+.aboutpage {
+	margin-left: 150px;
+	margin-right: 150px;
+	padding: 35px;
+	margin-top: 6px;
+	font-weight: 500;
+	text-align: center;
+	color: black;
+}
+
+.aboutpage a {
+	text-decoration: none;
+}
+
+/**	CONTACT PAGE*/
+.contactpage {
+	margin-left: 150px;
+	margin-right: 150px;
+	padding: 35px;
+	margin-top: 6px;
+	font-weight: 500;
+	text-align: center;
+	color: black;
+}
+
+.contactpage a {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+.contactpage a:hover {
+	color: #ecefcb ;
+}
+
+
+/**TEAM PAGE**/
+.teampage {
+	color: black;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.row {
+	margin: 30px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 405px;
+    margin-top: 30px;*/
+    margin-bottom: 15px;
+    /*margin-left: 37px;*/
+    /*margin-right: 30px;*/
+    padding: 0 20px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+	/*width: 330px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 15px;
+    color: gray;
+    line-height: 19px;
+}
+
+.container h2 {
+	color: green;
+	font-size: 23px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+/**JOIN**/
+
+.joinpage {
+	color: black;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.responsiveCal {
+	width: 100%;
+	position: relative; 
+	top:0;
+	bottom: 0;
+	border-bottom: 0;
+	padding-top: 2%;
+	padding-bottom: 3%; 
+	overflow: hidden;
+}
+ 
+.responsiveCal iframe {
+	position: center;
+	top:0; 
+	left:0;
+	width: 65%; 
+	height: 390px; 
+}
+
+hr { /** page divider */
+	color: black;
+	width:80%;
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+.subscriptionContainer h2 {
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.container #box {
+	align-items: center
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 53%;
+    padding: 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #e5b72d;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+
+
+/**WORK PAGE**/
+
+.workpage h2 {
+	color: black;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding: 35px;
+	margin-top: 6px;
+	font-weight: 500;
+	text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.workColumn {
+	color: black;
+    float: left;
+    width: 25%;
+    padding: 40px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.workRow:after {
+  padding-bottom: 70px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .workcolumn {
+        width: 100%;
+    }
+}
+/**    typewriter  effect -- home page **/
+
+
+
+@keyframes typing {
+    from { width: 100% }
+    to { width: 0 }
+    
+}
+
+.container {
+  position: relative;
+  /*font-family: Consolas, monospace;  */
+}
+
+.typing {
+  position: center;
+  top: 0;
+  margin: 100px;
+  z-index: -1;
+  color: black;
+  font-family: Merriweather;
+  /*font-weight: bold;*/
+}
+
+.hiders {
+  margin:0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.hiders h1 {
+  position: relative; 
+  clear: both; 
+  margin: 0;
+  float: right; /* makes animation go left-to-right */
+  width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
+  background: #5B9941; 
+  animation: typing 3s steps(30, end);
+  animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
+}
+  
+.hiders h1:nth-child(2) {
+  animation-delay: 2s;
+}
+.hiders h1:nth-child(3) {
+  animation-delay: 5s;
+}
+.hiders h1:nth-child(4) {
+  animation-delay: 8s;
+}
+.hiders h1:nth-child(5) {
+
+  animation-delay: 11s;
+}
+
+
+
+/** 5B9941
+	43A143; **/
