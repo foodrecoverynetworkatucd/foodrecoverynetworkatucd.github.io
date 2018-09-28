@@ -85,7 +85,7 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 25px;
-    -moz-bord er-radius:25px;
+    -moz-border-radius:25px;
     -webkit-border-radius:25px;
 }
 
@@ -104,15 +104,6 @@ body {
     background: #55ACEE;
     color: white;
 }
-
-
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
-
 
 
 /**	ABOUT PAGE*/
