@@ -129,7 +129,6 @@ body {
   z-index: -1;
   color: black;
   font-family: Merriweather;
-  /*font-weight: bold;*/
 }
 
 .hiders {
@@ -162,6 +161,18 @@ body {
 .hiders h1:nth-child(5) {
 
   animation-delay: 11s;
+}
+
+
+#nowrap {
+  white-space: nowrap ;
+  }
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .typing {
+    font-size: 30px;
+    position: center;
+  }
+  
 }
 
 
@@ -199,9 +210,7 @@ body {
     float: left;
     width: 405px;
     margin-top: 30px;*/
-    margin-bottom: 15px;
-    /*margin-left: 37px;*/
-    /*margin-right: 30px;*/
+    margin-bottom: 15px; 
     padding: 0 20px;
 }
 
@@ -329,7 +338,7 @@ hr { /** PAGE DIVIDER */
 	padding-top: 20px;
 }
 
-.button a {
+.button #subscribe {
   border-radius: 25px;
   background-color: #e5b72d; 
   color: white;
