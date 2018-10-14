@@ -1,2 +1,3 @@
 # foodrecoverynetworkatucd.github.io
-Club website
+Food Recovery Network at UC Davis club website
+9/27/2018
