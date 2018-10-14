@@ -331,14 +331,15 @@ hr { /** PAGE DIVIDER */
 }
 
 
-/* MAILING LIST SUBSCRIPTION*/
+/* MAILING LIST SUBSCRIPTION -- replaced with MAILCHIMP sign up form*/ 
+/* 
 .subscriptionContainer h2 {
 	color: black;
 	text-align: center;
 	padding-top: 20px;
 }
 
-.button #subscribe {
+.button a {
   border-radius: 25px;
   background-color: #e5b72d; 
   color: white;
@@ -354,7 +355,7 @@ hr { /** PAGE DIVIDER */
 .button:hover {
   opacity: 0.8
 }
-
+*/
 
 /*************************** CONTACT PAGE ***************************/ 
 .contactpage {
