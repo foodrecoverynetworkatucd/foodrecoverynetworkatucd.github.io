@@ -6,13 +6,13 @@ body {
 	text-align: center;
 	font-size: 16px;
 	color: #fff;
-	background-color: #5B9941; /** green **/
+	background-color: #FFFFFF; /** green **/
 	font-family: 'Raleway', sans-serif;
 }
 
 
-/*************************** HEADER ***************************/ 
-.header { 
+/*************************** HEADER ***************************/
+.header {
   padding: 40px;
   text-align: center;
   background: #e5b72d; /** gold **/
@@ -20,7 +20,7 @@ body {
   font-size: 30px;
 }
 
-.header a { 
+.header a {
 	color: green;
 	font-size: 40px;
 	font-weight: 600;
@@ -53,7 +53,7 @@ body {
 }
 
 
-/*************************** FOOTER ***************************/ 
+/*************************** FOOTER ***************************/
 .wrapper { /* keeps footer at bottom of page always */
     min-height: 100%;
     height: auto !important;
@@ -65,7 +65,7 @@ body {
     height: 65px; /* .push must be the same height as .footer */
 }
 
-.footer { 
+.footer {
 	padding: 15px;
     position: relative;
     right: 0;
@@ -79,7 +79,7 @@ body {
 
 
 /** Footer social media icons **/
-.fa { 
+.fa {
   display: inline-block;
   padding: 9px;
   font-size: 40px;
@@ -108,13 +108,13 @@ body {
 }
 
 
-/*************************** HOME PAGE ***************************/ 
+/*************************** HOME PAGE ***************************/
 
 /* typewriter  effect */
 @keyframes typing {
     from { width: 100% }
     to { width: 0 }
-    
+
 }
 
 .container {
@@ -139,16 +139,16 @@ body {
 }
 
 .hiders h1 {
-  position: relative; 
-  clear: both; 
+  position: relative;
+  clear: both;
   margin: 0;
   float: right; /* makes animation go left-to-right */
   width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
-  background: #5B9941; 
+  background: #FFFFFF; /* try to change this to a picture*/
   animation: typing 3s steps(30, end);
   animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
 }
-  
+
 .hiders h1:nth-child(2) {
   animation-delay: 2s;
 }
@@ -173,11 +173,11 @@ body {
     position: center;
   }
 
-  
+
 }
 
 
-/*************************** ABOUT PAGE ***************************/ 
+/*************************** ABOUT PAGE ***************************/
 .aboutpage {
 	margin-left: 150px;
 	margin-right: 150px;
@@ -191,9 +191,7 @@ body {
 .aboutpage a {
 	text-decoration: none;
 }
-
-
-/*************************** TEAM PAGE ***************************/ 
+/*************************** TEAM PAGE ***************************/
 .teampage {
 	color: black;
 	text-align: center;
@@ -211,7 +209,7 @@ body {
     float: left;
     width: 395px;
     margin-top: 30px;*/
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
     padding: 0 20px;
 }
 
@@ -253,7 +251,7 @@ body {
 }
 
 
-/*************************** OUR WORK PAGE ***************************/ 
+/*************************** OUR WORK PAGE ***************************/
 .workpage h2 {
   color: black;
   margin-left: 150px;
@@ -293,7 +291,7 @@ body {
 }
 
 
-/*************************** JOIN PAGE ***************************/ 
+/*************************** JOIN PAGE ***************************/
 .joinpage { /* HEADING */
 	color: black;
 	text-align: center;
@@ -302,21 +300,21 @@ body {
 
 .responsiveCal { /* CALENDAR */
 	width: 100%;
-	position: relative; 
+	position: relative;
 	top:0;
 	bottom: 0;
 	border-bottom: 0;
 	padding-top: 2%;
-	padding-bottom: 3%; 
+	padding-bottom: 3%;
 	overflow: hidden;
 }
- 
+
 .responsiveCal iframe {
 	position: center;
-	top:0; 
+	top:0;
 	left:0;
-	width: 65%; 
-	height: 440px; 
+	width: 65%;
+	height: 440px;
 }
 
 hr { /** PAGE DIVIDER */
@@ -332,8 +330,8 @@ hr { /** PAGE DIVIDER */
 }
 
 
-/* MAILING LIST SUBSCRIPTION -- replaced with MAILCHIMP sign up form*/ 
-/* 
+/* MAILING LIST SUBSCRIPTION -- replaced with MAILCHIMP sign up form*/
+/*
 .subscriptionContainer h2 {
 	color: black;
 	text-align: center;
@@ -342,7 +340,7 @@ hr { /** PAGE DIVIDER */
 
 .button a {
   border-radius: 25px;
-  background-color: #e5b72d; 
+  background-color: #e5b72d;
   color: white;
   border: none;
   padding: 15px 32px;
@@ -358,7 +356,7 @@ hr { /** PAGE DIVIDER */
 }
 */
 
-/*************************** CONTACT PAGE ***************************/ 
+/*************************** CONTACT PAGE ***************************/
 .contactpage {
   margin-left: 150px;
   margin-right: 150px;

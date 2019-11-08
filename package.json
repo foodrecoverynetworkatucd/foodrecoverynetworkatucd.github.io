@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "FRN at UCD website aims to give information to students interested in learning more about our mission and being involved in our club",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foodrecoverynetworkatucd/foodrecoverynetworkatucd.github.io.git"
+  },
+  "author": "Kim Quach and Soumya Duriseti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foodrecoverynetworkatucd/foodrecoverynetworkatucd.github.io/issues"
+  },
+  "homepage": "https://github.com/foodrecoverynetworkatucd/foodrecoverynetworkatucd.github.io#readme"
+}
